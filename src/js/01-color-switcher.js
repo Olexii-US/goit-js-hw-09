@@ -32,4 +32,3 @@ function stopColorChange() {
     // refs.stopButton.setAttribute('disabled', '')
     // refs.startButton.removeAttribute('disabled', '')
 }
-
