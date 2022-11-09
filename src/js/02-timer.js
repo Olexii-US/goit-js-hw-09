@@ -34,7 +34,7 @@ function onButtonClick(selectTime) {
   refs.button.addEventListener('click', () => {
     refs.button.setAttribute('disabled', '')
 
-    timerId = setInterval(() => {      
+    const timerId = setInterval(() => {      
       if (selectTime <= Date.now()) {
         Notify.success("The countdown is over ")
         return clearInterval(timerId)
